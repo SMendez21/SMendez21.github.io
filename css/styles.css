@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Patua+One&family=Tapestry&display=swap');
+
+body {
+
+  background: orange url("../images/bbtag.png") no-repeat right top;
+  background-size: 100px 200px;
+  color: blue
+
+}
+
+h1, h3 {
+  font-family: 'Patrick Hand', cursive;
+  color: red;
+}
+
+p{ color: white; }
+
+   .sidebar {
+     color: black;
+     margin:50px;
+     padding:70px;
+   }
