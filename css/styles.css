@@ -1,19 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Patua+One&family=Tapestry&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Rambla:ital,wght@0,400;0,700;1,400&display=swap');
 body {
 
-  background: orange url("../images/bbtag.png") no-repeat right top;
+  column-gap: 12%;
+/*background: #9C1B1B
+  /*background: orange url("../images/bbtag.png") no-repeat right top;
   background-size: 100px 200px;
   color: blue
+  font-family: 'Permanent Marker', cursive;
+font-family: 'Rambla', sans-serif;*/
+}
+
+h1, h2, h3 { font-family:'Permanent Marker',cursive;
+    color:;
 
 }
 
-h1, h3 {
-  font-family: 'Patrick Hand', cursive;
-  color: red;
-}
-
-p{ color: white; }
+p{  font-family:'Rambla', sans-serif;
+  color: }
 
    .sidebar {
      color: black;
