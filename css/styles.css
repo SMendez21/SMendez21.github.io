@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Rambla:ital,wght@0,400;0,700;1,400&display=swap');
+
 body {
 
-  column-gap: 12%;
-/*background: #9C1B1B
+background: #9C1B1B
   /*background: orange url("../images/bbtag.png") no-repeat right top;
   background-size: 100px 200px;
   color: blue
@@ -11,16 +11,24 @@ body {
 font-family: 'Rambla', sans-serif;*/
 }
 
-h1, h2, h3 { font-family:'Permanent Marker',cursive;
+
+h1, h2 { font-family:'Permanent Marker',cursive;
     color:;
-
+    padding-right: 30px;
 }
+h2,h3,h5 {color:white;}
 
-p{  font-family:'Rambla', sans-serif;
-  color: }
+p,h3{  font-family:'Rambla', sans-serif;
+  color: white;}
 
    .sidebar {
      color: black;
      margin:50px;
      padding:70px;
+   }
+
+   .news {
+     border: red;
+     background-color:#201e1e;
+     padding: 10px;}
    }
