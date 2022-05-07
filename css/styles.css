@@ -17,9 +17,12 @@ background: linear-gradient(171.47deg, #1A0202 -10.77%, #6C0808 3.28%, #972222 4
   font-family: 'Permanent Marker', cursive;
 font-family: 'Rambla', sans-serif;*/
 }
+.textpad { padding: 10px 50px 50px 50px;
+border: 3px solid blue;}
+.paddings {border:2px solid white;}
 
-
-
+.navimage { background-image: url(../images/background/navbg.png);
+}
 h1, h2 { font-family:'Permanent Marker',cursive;
     color:;
     padding-right: 30px;
@@ -29,6 +32,9 @@ h2,h3,h5 {color:white;}
 p,h3{  font-family:'Rambla', sans-serif;
   color: white;}
 
+p{
+  font-size:20px;
+}
    .sidebar {
      color: black;
      margin:50px;
@@ -36,7 +42,7 @@ p,h3{  font-family:'Rambla', sans-serif;
    }
 
    .news {
-     border: red;
+
      background-color:#201e1e;
      padding: 10px;}
    }
