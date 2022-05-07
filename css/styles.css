@@ -2,14 +2,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Rambla:ital,wght@0,400;0,700;1,400&display=swap');
 
 body {
+max-width: 100;
+overflow-x: hidden;
 
-background: #9C1B1B
-  /*background: orange url("../images/bbtag.png") no-repeat right top;
+background: #9C1B1B;
+background: linear-gradient(171.47deg, #1A0202 -10.77%, #6C0808 3.28%, #972222 42.57%, #7C0707 82.83%, #150101 118.31%);
+
+
+
+
+/*background: url("../images/bbtag.png") no-repeat right top;
   background-size: 100px 200px;
   color: blue
   font-family: 'Permanent Marker', cursive;
 font-family: 'Rambla', sans-serif;*/
 }
+
 
 
 h1, h2 { font-family:'Permanent Marker',cursive;
