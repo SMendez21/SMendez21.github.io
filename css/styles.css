@@ -8,29 +8,56 @@ overflow-x: hidden;
 background: #9C1B1B;
 background: linear-gradient(171.47deg, #1A0202 -10.77%, #6C0808 3.28%, #972222 42.57%, #7C0707 82.83%, #150101 118.31%);
 
-
-
-
 /*background: url("../images/bbtag.png") no-repeat right top;
   background-size: 100px 200px;
   color: blue
   font-family: 'Permanent Marker', cursive;
 font-family: 'Rambla', sans-serif;*/
 }
+
+.borders_gold { border-style: solid;
+border-width: 5px;
+border-color: #FFDA90 #FBAE14 #C23516;
+/*linear-gradient(127.08deg,#FFDA90 5.62%, #FBAE14 29.87%, #C23516 87.31%);*/
+ }
+
+.borders_red {border-style: solid;
+  border-width: 5px;
+border-color: #A60C0C;}
+
+
 .textpad { padding: 10px 50px 50px 50px;
 border: 3px solid blue;}
+
+
 .paddings {border:2px solid white;}
 
+
 .navimage { background-image: url(../images/background/navbg.png);
+  height:
 }
+
+.announced {background-image: url(../images/background/affiliatebg.png);
+  height: 215px;
+}
+
 h1, h2 { font-family:'Permanent Marker',cursive;
     color:;
     padding-right: 30px;
 }
+
+
+h1 {color: #FFB800;}
+
 h2,h3,h5 {color:white;}
 
 p,h3{  font-family:'Rambla', sans-serif;
   color: white;}
+
+
+hr {color: #AAA2A2;
+opacity: 60%;}
+
 
 p{
   font-size:20px;
