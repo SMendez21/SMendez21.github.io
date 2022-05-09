@@ -2,17 +2,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Rambla:ital,wght@0,400;0,700;1,400&display=swap');
 
 body {
+  margin:0;
 max-width: 100;
 overflow-x: hidden;
 
+
 background: #9C1B1B;
-background: linear-gradient(171.47deg, #1A0202 -10.77%, #6C0808 3.28%, #972222 42.57%, #7C0707 82.83%, #150101 118.31%);
+background: url("../images/background/page2bg.png") no-repeat;
+width: 100%;
+
 
 /*background: url("../images/bbtag.png") no-repeat right top;
   background-size: 100px 200px;
   color: blue
   font-family: 'Permanent Marker', cursive;
 font-family: 'Rambla', sans-serif;*/
+}
+.homepage {
+  background: url("../images/background/bgone.png")  no-repeat;
+  background-position:center;
+  background-size:cover;
+  position: relative;
+
+}
+.pagetwo {
+  background: url("../images/background/page2bg.png") no-repeat;
+  background-position:center;
+  background-size:cover;
+  position: relative;
+}
+
+.borders_black { border-style: solid;
+border-width: 5px;
+border-color: black;
 }
 
 .borders_gold { border-style: solid;
@@ -25,9 +47,12 @@ border-color: #FFDA90 #FBAE14 #C23516;
   border-width: 5px;
 border-color: #A60C0C;}
 
+.redbg {background-color: #A60C0C;
+}
 
 .textpad { padding: 10px 50px 50px 50px;
 border: 3px solid blue;}
+
 
 
 .paddings {border:2px solid white;}
@@ -37,8 +62,21 @@ border: 3px solid blue;}
   height:
 }
 
-.announced {background-image: url(../images/background/affiliatebg.png);
-  height: 215px;
+.checkers {background-image: url(../images/background/checkers.png);
+  width: 100%;
+}
+
+.announced {background-image: url(../images/background/navbg.png);
+  height: 215px; width: 100%;
+}
+
+.affiliates {background-image: url(../images/background/affiliatebg.png);
+height: 320px ; width: 100%;
+}
+
+.specialh2 {
+  font-family: 'Permanent Marker',cursive;
+  color: #FFB800;
 }
 
 h1, h2 { font-family:'Permanent Marker',cursive;
@@ -46,6 +84,7 @@ h1, h2 { font-family:'Permanent Marker',cursive;
     padding-right: 30px;
 }
 
+strong {color:#FFB800; font-size: 32px; }
 
 h1 {color: #FFB800;}
 
@@ -58,6 +97,9 @@ p,h3{  font-family:'Rambla', sans-serif;
 hr {color: #AAA2A2;
 opacity: 60%;}
 
+.linetwo {color: black;
+opacity: 100%;
+}
 
 p{
   font-size:20px;
@@ -73,3 +115,9 @@ p{
      background-color:#201e1e;
      padding: 10px;}
    }
+
+.button {
+  color: white;
+  font-size: 90px;
+
+}
