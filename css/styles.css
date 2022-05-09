@@ -79,7 +79,7 @@ height: 320px ; width: 100%;
   color: #FFB800;
 }
 
-h1, h2 { font-family:'Permanent Marker',cursive;
+h1, h2,h4 { font-family:'Permanent Marker',cursive;
     color:;
     padding-right: 30px;
 }
@@ -87,12 +87,14 @@ h1, h2 { font-family:'Permanent Marker',cursive;
 strong {color:#FFB800; font-size: 32px; }
 
 h1 {color: #FFB800;}
+.headerspecial {color: white;}
 
-h2,h3,h5 {color:white;}
+h2,h3,h4,h5 {color:white;}
 
 p,h3{  font-family:'Rambla', sans-serif;
   color: white;}
 
+h4 {padding:7px;}
 
 hr {color: #AAA2A2;
 opacity: 60%;}
@@ -116,8 +118,17 @@ p{
      padding: 10px;}
    }
 
-.button {
-  color: white;
-  font-size: 90px;
+.banner {
+  background: url(../images.background/checkerss.png);
+  background-repeat: no-repeat;
+}
 
+.gamebanner {
+  background: url("../images/background/warzard_logo_2.png"), url("../images/background/bannerp2.png") ;
+  background-repeat:no-repeat;
+  background-size: contain, cover;
+  width: auto;
+}
+
+.bannerbg {opacity: 100%;
 }
