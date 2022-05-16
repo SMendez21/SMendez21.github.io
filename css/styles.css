@@ -171,8 +171,12 @@ p{
 }
 
 .carousel {
-  width:auto;
-  align-items: center;
+  float: left;
+  width:25%;
+  padding: 1px;
+  margin-top:20px;
+  margin-bottom: 20px;
+
 }
 
 
