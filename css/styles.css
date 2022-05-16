@@ -82,6 +82,11 @@ border: 3px solid blue;}
   height: 215px; width: 100%;
 }
 
+.announcing {
+  height: auto;
+}
+
+
 .affiliates {background-image: url(../images/background/affiliatebg.png);
 height: 500px ; width: 100%;
 }
@@ -199,13 +204,37 @@ background-image: url("../images/background/buttonrng"), no-repeat ;
   font-size: 33px;
 }
 
-.typing {
+.typing input[type=text]{
 font-family: 'Rambla', sans-serif;
-padding: 20px;
-width: 70px;
+font-size: 17px;
+padding: 5px;
+margin-top: 45px;
+background-color: black;
+width: 250px;
 }
 .typing input[type=text]{
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
+}
+
+@media screen and (max-width:1500px){
+  .typing input[type=text] {
+    display: block;
+    margin-top: 20px;
+    padding:6px;
+    border: 2px;
+  }
+  .typing input[type=text]{
+    border: 2px solid white;
+  }
+}
+
+
+@media screen and (max-width:600px){
+.headlogo {
+width:600px;
+
+}
+
 }
 
 .logosmall {
