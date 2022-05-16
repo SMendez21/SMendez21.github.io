@@ -1,57 +1,27 @@
 <!DOCTYPE html>
 <html>
   <head>
-
     <title>Fighters Generation </title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
-    <!-- links to style sheets, google fonts, etc. go here -->
-
-
-  <link href="./css/styles.css" type="text/css" rel="stylesheet" />
-
-    <style>
-/*
-body div { border: 1px solid red; }
-*/
-</style>
   </head>
-  <body class="homepage">
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="./css/styles.css" type="text/css" rel="stylesheet" />
+
+    <body class="home">
     <!-- TESTING STUFF -->
 <!--<a> href= #linkname  -->
-
-<!-- header thing
-<nav class="navbar navbar-dark bg-dark">
-  <div class="container-fluid p-0">
-    <div class="offset-md-1">
-    <a class="navbar-brand">
-      <img  src="./images/blankaF.png" class="img-thumbnail"
-            alt="Blanka is joining Fortnite"/>
-            <a/>
-    </div>
-
-    <div class="col-2 offset-md-1 border">
-    <form class='d-flex'>
-      <input class="form-control me-2" type="search" placeholder="aaaaaa" aria-label="search">
-    </form>
-  </div>
-    </div>
-  </nav>
--->
-
-
     <!-- END OF TESTING STUFF -->
 <div class="container-fluid">
       <div class="row">
         <div class="p-0 col-xl-5 col-lg-10 col-sm-12 offset-md-1">
-          <img src="./images/background/tfglogo.png" alt="logo"  height="100%" class="img-fluid"/>
+          <img src="./images/background/tfglogo.png" alt="logo"  class="img-fluid"/>
         </div>
-        <div class="col-2 offset-md-3 offset-sm-4 border">
-          <h2>searching </h2>
+
+        <div class="typing col-2 offset-xl-3 offset-md-1">
+          <input type="text" placeholder="Search">
+        </div>
         </div>
       </div>
-    </div>
 
 
 <br> <br /> <br> <br /><br>
@@ -60,7 +30,7 @@ body div { border: 1px solid red; }
 
 <div class="container-fluid">
     <div class="row">
-            <div class="col-lg-2 order-lg-1 order-md-1 offset-lg-1 gx-4
+            <div class="col-xl-2 col-lg-5 order-lg-1 order-md-1 offset-lg-1 gx-4
                         col-md-5 offset-md-1 offset-sm-0 pb-4">
 
                 <div class="borders_gold">
@@ -86,46 +56,46 @@ body div { border: 1px solid red; }
 
 
         <div class="col-12 bg-black border border-danger p-2">
-          <h2 class="mx-3">extra
+          <div class="extra mx-3">extra
 
             <button class="btn dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false" >
-                      <img src ="./images/background/buttondown.png"> </button>
+                      <img src ="./images/background/buttondown.png" alt="Dropdown button"> </button>
               <uL class="dropdown-menu dropdown-menu-dark">
-                <li><p class="dropdown-item" href="#"> TFG Mobile</p> </li>
-                  <li><p class="dropdown-item" href="#"> Funnies</p> </li>
-                    <li><p class="dropdown-item" href="#"> Tip/Donate</p> </li>
-                      <li><p class="dropdown-item" href="#"> Archive </p> </li>
+                <li><p class="dropdown-item" > TFG Mobile</p> </li>
+                  <li><p class="dropdown-item" > Funnies</p> </li>
+                    <li><p class="dropdown-item" > Tip/Donate</p> </li>
+                      <li><p class="dropdown-item" > Archive </p> </li>
               </uL>
-            </h2>
+            </div>
         </div>
 
-        <div class="col-12 bg-black p-2"><h2 class="mx-3"> social
+        <div class="col-12 bg-black p-2"><div class="extra mx-3"> social
 
-          <button class="btn dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false" class="float-start">
-                    <img src ="./images/background/buttondown.png"> </button>
+          <button class="btn dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false" >
+                    <img src ="./images/background/buttondown.png" alt="dropdown button"> </button>
             <uL class="dropdown-menu dropdown-menu-dark">
-              <li><p class="dropdown-item" href="#"> Twitter</p> </li>
-              <li><p class="dropdown-item" href="#"> Patreon </p> </li>
-                <li><p class="dropdown-item" href="#"> Youtube</p> </li>
-                  <li><p class="dropdown-item" href="#"> Discord</p> </li>
-                    <li><p class="dropdown-item" href="#"> Instagram </p> </li>
-                    <li><p class="dropdown-item" href="#"> Twitch </p> </li>
-                    <li><p class="dropdown-item" href="#"> Facebook </p> </li>
-            </uL> </h2>
+              <li><p class="dropdown-item" > Twitter</p> </li>
+              <li><p class="dropdown-item" > Patreon </p> </li>
+                <li><p class="dropdown-item"> Youtube</p> </li>
+                  <li><p class="dropdown-item"> Discord</p> </li>
+                    <li><p class="dropdown-item" > Instagram </p> </li>
+                    <li><p class="dropdown-item" > Twitch </p> </li>
+                    <li><p class="dropdown-item" > Facebook </p> </li>
+            </uL> </div>
         </div>
 
     </div>
   </div>
 
 <!-- featured art -->
-<div class="col-lg-5 offset-lg-1 offset-sm-0 order-lg-2 order-md-3 gx-0 pe-xl-4 pe-lg-4 pe-md-0">
+<div class="col-xl-5 offset-xl-1 order-lg-3 order-xl-2 order-md-3 gx-0 pe-xl-4 pe-lg-0 pe-md-0">
   <div class="borders_gold">
   <div class="col bg-dark p-0">
         <div class="col border border-warning border-2">
           <h1 class="mx-4"> Featured Art </h1>  </div>
-          <img  src="./images/CF Collection.jpg" class="img-fluid p-0"
-                alt="Featured art" width="100%"/>
-                  </div>
+         <img src="./images/collectionbanner.png" class="featured img-fluid  p-0" alt="Featured art"/>
+
+                </div>
                 </div>
 
     </div>
@@ -137,9 +107,9 @@ body div { border: 1px solid red; }
             <div class="borders_red">
             <div class="col p-0">
               <div class="col p-0 redbg">
-              <h2 class="text-center p-1">announcements<h2>
+              <h2 class="text-center p-1">announcements</h2>
               </div>
-                <img src="./images/Contest.png" class="img-fluid" alt="20 anniversary contest" class="d block" width="320px">
+                <img src="./images/Contest.png" class="img-fluid d block" alt="20 anniversary contest"  width="320">
                 <div class="announced">
                   <div class="mx-4">
                     <br/>
@@ -164,13 +134,13 @@ body div { border: 1px solid red; }
                             <div class="affiliates">
                             <br />
                             <img  src="./images/Sponsor1.jpg" class="mx-auto d-block"
-                                  alt="Hiroaki Art blog" align="end"/>
+                                  alt="Hiroaki Art blog"/>
                                 <br>
                                     <img  src="./images/Sponsor2.jpg" class="img-thumbnail mx-auto d-block"
-                                          alt="Network N" align="end"/>
+                                          alt="Network N" />
                                           <br>
                                           <img  src="./images/Sponsor3.png" class="img-thumbnail mx-auto d-block"
-                                                alt="Internet Defense League" align="end"/>
+                                                alt="Internet Defense League" />
                                         </div>
 
                             </div>
@@ -198,18 +168,18 @@ body div { border: 1px solid red; }
                             Blanka and Sakura starting this Thursday, April 28th, 2022. </p>
                       </div>
               </div>
-<hr size="5" width="80%" class="offset-md-1">
+<hr class="line_80 offset-md-1" />
               <div class="row p-4">
                 <div class="col">
                   <br>
                   <h5>April 25th, 2022</h5>
-                  <h3> <b><u>Street fighter III: 3rd strike</u> Super Meter Voice Sampled from 1996 <i>Batman</i> Series </b><h3>
+                  <h3> <b><u>Street fighter III: 3rd strike</u> Super Meter Voice Sampled from 1996 <i>Batman</i> Series </b></h3>
                   <img src="./images/makoto3S.png" align="left" class="paddings"
                     alt="Makoto from Street Fighter 3rd Strike"/>
                     <p> Throughout the decades, fighting game fans and historians have discovered the original source material for iconic character designs, illustrations, and even audio. The latest discovery, pointed out by Fairly Frequent FG Facts on Twitter, reveals the Street Fighter III: 3rd Strike sound clip (voice), used when one meter of the super gauge filled, is in fact sampled from the 1966 Batman series starring Adam West.</p>
               </div>
             </div>
-<hr size="5" width="80%" class="offset-md-1">
+<hr class="line_80 offset-md-1"/>
           <div class="row p-4">
                 <div class="col">
                   <br>
@@ -220,29 +190,30 @@ body div { border: 1px solid red; }
                     <p> Arc System Works announced today that Guilty Gear STRIVE's second story mode, dubbed Another Story, will become available on Friday, April 29th for Season Pass 1 holders. Accompanying the announcement is a new batch of screenshots showing Baiken, May, and Ramlethal — all of whom will be starring in the new story experience (as they did not appear in the original story mode).. </p>
                 </div>
           </div>
-<hr size="5" width="80%" class="offset-md-1">
+<hr class="line_80 offset-md-1">
           <div class="row p-4">
             <div class="col">
               <br>
               <h5>April 18th, 2022</h5>
-              <h3><b> Umbrella Now Available in <u><i>Skullgirls: 2nd Encore </u></i> </b><h3>
+              <h3><b> Umbrella Now Available in <u><i>Skullgirls: 2nd Encore</i></u> </b> </h3>
               <img src="./images/umbrellaSG.png" align="left" class="paddings"
                 alt="Makoto from Street Fighter 3rd Strike"/>
                 <p>	Hidden Variable Games announced Umbrella, the latest DLC character of Skullgirls: 2nd Encore, is now playable in the PlayStation 4 and Steam versions of the game. Umbrella can be purchased individually for $10 or as part of the $35 Season 1 Pass. Hidden Variable also shared a trailer for Umbrella's Season 1 color palettes and voice pack.</p>
           </div>
         </div>
-<hr size="5" width="80%" class="offset-md-1">
+<hr class="line_80 offset-md-1">
         <div class="row p-4">
           <div class="col">
             <br>
             <h5>April 25th,2022</h5>
-            <h3> <b><U> Capcom Fighting Collection </u> Promo Art by Chisato Mita</b> <h3>
+            <h3> <b><U> Capcom Fighting Collection </u> Promo Art by Chisato Mita</b> </h3>
             <img src="./images/CFC1.png" align="left" class="paddings"
               alt="Makoto from Street Fighter 3rd Strike"/>
-              <p> Earlier this year, Capcom announced Capcom Fighting Collection (coming June 24th) — a compilation of 10 iconic 2D classics complete with Rollback Netcode, Training modes, and other new features. Capcom said the compilation's Gallery mode will contain "over 500" items, including rare concept artwork and design documents never seen before. Check out a new promo illustration by Chisato Mita, inside:</p>
+              <p> Earlier this year, Capcom announced Capcom Fighting Collection (coming June 24th) — a compilation of 10 iconic 2D classics complete with Rollback Netcode, Training modes, and other new features. Capcom said the compilation's Gallery mode will contain
+                 "over 500" items, including rare concept artwork and design documents never seen before. Check out a new promo illustration by Chisato Mita, inside:</p>
         </div>
       </div>
-<hr size="5" width="80%" class="offset-md-1">
+<hr class="line_80 offset-md-1">
       <div class="row p-4">
             <div class="col">
               <br>
@@ -260,8 +231,8 @@ body div { border: 1px solid red; }
 <!--figure out how to stack them vertically -->
 <br/>
 
-<div class="col-lg-4 col-md-6 col-sm-6 offset-lg-7 offset-md-6 offset-sm-7 p-0" align="right"> <h2>more news
-<button type="button" class="btn shadow-none">  <img src ="./images/background/buttonright.png"></button> </h2>
+<div class="col-lg-4 col-md-6 col-sm-6 offset-lg-7 offset-md-6 offset-sm-7 pe-sm-4 pe-md-0 p-0" align="right"> <h2>more news
+<button type="button" class="btn shadow-none">  <img src ="./images/background/buttonright.png" alt="button"></button> </h2>
 </div>
 
 
@@ -269,8 +240,8 @@ body div { border: 1px solid red; }
 <br>
 
 
-<div class="col-lg-4 col-md-6 col-sm-6 offset-lg-7 offset-md-6 offset-sm-7 p-0" align="right"> <h2>Archive
-  <button type="button" class="btn shadow-none">  <img src ="./images/background/button_orange.png"> </button> </h2>
+<div class="col-lg-4 col-md-6 col-sm-6 offset-lg-7 offset-md-6 offset-sm-7 pe-sm-4 pe-md-0 p-0" align="right"> <h2>Archive
+  <button type="button" class="btn shadow-none">  <img src ="./images/background/button_orange.png" alt="orange button"> </button> </h2>
 </div>
 <br> <br /><br> <br /><br> <br />
 <!-- footerr -->
@@ -284,8 +255,8 @@ body div { border: 1px solid red; }
             bg-black align-items-start">
   <br><br>
   <div class="row">
-<div class="col-xl-5 offset-xl-1">
-    <img src="./images/background/logosmall.png" alt="logo"  height="100%" class="img-fluid" width="100%"/>
+<div class="logosmall col-xl-5 offset-xl-1">
+    <img src="./images/background/logosmall.png" alt="logo" class="img-fluid"/>
  </div>
 <br>
 <div class="col-xl-4 offset-xl-1 offset-sm-0 p-4">
